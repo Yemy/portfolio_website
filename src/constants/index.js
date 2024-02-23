@@ -26,9 +26,6 @@ import {
   addistweet,
   tga1,
   beteseb,
-  DRF,
-  our_tube,
-  we_tok,
   EcomAdmin,
   threejs,
 } from "../assets";
@@ -45,10 +42,6 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
-  },
-  {
-    id: "certificates",
-    title: "Certificates",
   },
   {
     id: "contact",
@@ -187,8 +180,8 @@ const testimonials = [
   {
     testimonial:
       "I've never met a teacher who truly cares about their students' success like Yemane does, and help us build our company website from idea tp design to development.",
-    name: "Endalkacher B",
-    designation: "Acadamic Dean",
+    name: "Endalkachew B",
+    designation: "Academic Dean",
     company: "Bosco children TVET",
     image: "",
   },

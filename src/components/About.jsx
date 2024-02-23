@@ -43,18 +43,22 @@ const About = () => {
         <p className={styles.sectionSubText}>About Me</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        Name: Yemane Birhane <br />
+      <motion.div 
+        variants={fadeIn("right", "spring", 0.2, 0.5)}
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+      <img className="rounded-[100px]" id="profile_pic" src={yemi} />        
+      Name: Yemane Birhane <br />
         Gender: Male <br />
         DOB: Jan-12-1998 <br />
         Nick_Name: Yemi Bold <br /><br/>
         FullStack Software Developer <br /><br/>
-
         Fav Quote: Everybody should Learn to Program a Computer, Because it Teaches you how to Think ! <br /><br />
-        <h1 className='text-3xl'> What I Do?</h1>
+      </motion.div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        <span className='text-3xl'> What I Do?</span><br/>
         I'm a skilled software developer with experience in Python and
         JavaScript, and expertise in frameworks like Django, React.js.
         Databases MySQL, Sqlite, and PostgreSQL.  Data Structures, Algorithm, and Data analytics.
