@@ -188,10 +188,10 @@ const testimonials = [
   {
     testimonial:
       "After Yemane developed our website, our connection with our donors and stakeholders became easier and better thank you.",
-    name: "Fr Yohannes Mengistu",
+    name: "Yohannes Mengistu",
     designation: "Director General",
     company: "Salliessians of DonBosco",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "",
   },
 ];
 
